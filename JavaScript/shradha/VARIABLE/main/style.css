@@ -1,0 +1,17 @@
+.class-button{
+  color:blue;
+}
+
+.bag-button{
+     border-radius: 10px;  
+     border:none;
+     background-color:lightgreen; 
+     padding: 5px 15px;
+}
+
+.wisslist-button{
+      padding: 5px 35px;
+      border-radius: 10px;
+      border: 2px solid black;
+      text-transform: uppercase;
+}

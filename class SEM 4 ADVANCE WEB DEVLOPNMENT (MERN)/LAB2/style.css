@@ -1,0 +1,13 @@
+
+#screen{
+     width: 25%;
+     text-align: right;
+     height: 30px;
+     padding: 10px;
+}
+
+body button{
+   height: 45px;
+   width: 64px;
+}
+

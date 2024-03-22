@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>MY Sintific Calculator</h2>
+
+    <input type="text" id="screen" placeholder="0" /><br /><br />
+    <button onclick="backspace()">CE</button>
+    <button onclick="fact()">x!</button>
+    <button className="btn">(</button>
+    <button className="btn">)</button>
+    <button className="btn">%</button>
+    <button onclick="screen.value=''">CLEAR</button><br /><br />
+
+    <button onclick="sin()">sin</button>
+    <button onclick="pi()">&#8719;</button>
+    <button className="btn">7</button>
+    <button className="btn">8</button>
+    <button className="btn">9</button>
+    <button className="btn">/</button><br /><br />
+
+    <button onclick="cos()">cos</button>
+    <button onclick="log()">log</button>
+    <button className="btn">4</button>
+    <button className="btn">5</button>
+    <button className="btn">6</button>
+    <button className="btn">*</button><br /><br />
+
+    <button onclick="tan()">tan</button>
+    <button onclick="sqrt()">&#8730;</button>
+    <button className="btn">1</button>
+    <button className="btn">2</button>
+    <button className="btn">3</button>
+    <button className="btn">-</button><br /><br />
+
+    <button onclick="e()">tan</button>
+    <button onclick="pow()">x <sup>2</sup></button>
+    <button className="btn">0</button>
+    <button className="btn">.</button>
+    <button onclick="screen.value=eval(screen.value);">=</button>
+    <button className="btn">+</button><br /><br />
+    <button onclick="radian()">Rad</button>
+    <button onclick="degree()">Deg</button>
+
+    <script src="main.js"></script>
+  </body>
+</html>

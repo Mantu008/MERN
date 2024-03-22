@@ -1,0 +1,21 @@
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+  background-color:white;
+  color:black;
+}
+
+#box{
+  height: 200px;
+  width: 200px;
+  border: 2px solid black;
+  background-color: blue;
+  margin: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+}

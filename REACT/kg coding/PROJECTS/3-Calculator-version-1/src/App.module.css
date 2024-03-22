@@ -1,0 +1,16 @@
+.box{
+   background-color:rgb(39, 210, 187);
+   height: 550px;
+   width: 350px;
+   border-radius:5px;
+   border: 1px solid black;
+}
+
+.buttonsContainer{
+   height: 450px;
+   width: 320px;
+   margin-top: 5px;
+   margin-left: 10px;
+   padding-left: 40px;
+   border-radius: 5px;
+}

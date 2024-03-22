@@ -1,0 +1,12 @@
+.box{
+    font-weight: 900;
+    font-size: 5rem;
+    border: 2px solid black;
+    margin: 15px;
+    width: 50%;
+    border-radius: 5px;
+    background-color:aquamarine;
+    min-width: 400px;
+    max-width: 600px;
+    padding: 15px;
+}

@@ -1,0 +1,33 @@
+body{
+  background-color: #6ecfaf;
+  text-align: start;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 3rem;
+  margin: 20px;
+  padding: 20px;
+}
+
+h5{
+  margin: 10px;
+  padding: 10px;
+}
+
+input{
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+button{
+  height: 40px;
+  width: 80px;
+  margin: 20px;
+  padding: 20px;
+}
+

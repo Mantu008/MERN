@@ -1,0 +1,11 @@
+.FoodItem{
+    color:rgb(45, 17, 110);
+    font-size: 2rem;
+}
+
+.button{
+     float:right;
+     margin-right: 20px;
+     margin-top: 5px;
+}
+

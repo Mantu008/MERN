@@ -1,0 +1,39 @@
+#calculator{
+      margin-top: 50px;
+      margin-left: 200px;
+      width: 280px;
+      border: 1px solid black;
+      border-radius: 5px;
+      background-color: aqua;
+}
+
+#display{
+      margin-top: 5px;
+      margin-left: 20px;
+      width: 220px;
+      height: 50px;
+      font-size: 2rem;
+      font-weight: bolder;
+      background-color: bisque;
+}
+
+.button-container{
+      margin-top:5px;
+      margin-left:50px;
+      margin-right:50px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      flex-wrap: wrap;
+      gap: 5px;
+      background-color:aqua;
+}
+
+
+.button{
+  height: 50px;
+  width: 50px;
+  font-size: larger;
+  background-color: aliceblue;
+}
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Calculator Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+      <div id="calculator"><caption><b>Mera Calculator</b></caption>
+         <input type="text" id="display" readonly>
+          <div class="button-container">
+            
+            <button class="button" onclick="
+            curretDisplay='';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>C</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'1';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>1</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'2';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>2</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'+';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>+</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'3';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>3</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'4';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>4</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'-';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>-</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'5';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>5</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'6';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>6</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'x';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>x</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'7';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>7</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'8';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>8</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'/';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>/</b></button>
+
+            <button class="button" onclick="
+             curretDisplay=eval(curretDisplay);
+             document.querySelector('#display').value =curretDisplay;
+              "><b>=</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'9';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>9</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'0';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>0</b></button>
+
+            <button class="button" onclick="
+            curretDisplay=curretDisplay+'.';
+            document.querySelector('#display').value =curretDisplay;
+            "><b>.</b></button>
+
+          </div>
+      </div>
+
+
+      <script>
+           let curretDisplay='';
+           document.querySelector('#display').value =curretDisplay;
+      </script>
+
+</body>
+</html>

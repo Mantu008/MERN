@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  margin: 0;
+  padding: 0;
+}
+
+#nav{
+  width: 100vw;
+  padding-right: 10px;
+}
+
+
+.item{
+   height: 100%;
+   width: 100vw;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 20px;
+   padding: 10px;
+}
+
+.card-img-top{
+  height: 300px;
+  width: 200px;
+}
+
+.card{
+  height: 200px;
+  width: 200px;
+}
+
+
+/* css for cart */
+
+.buySection{
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.noItem{
+  margin-top: 250px;
+}
+
+.removeCart{
+    height: 50px;
+    width: 150px;
+}

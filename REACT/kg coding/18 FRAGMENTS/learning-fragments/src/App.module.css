@@ -1,0 +1,10 @@
+h1{
+  background-color: rgb(100, 190, 82);
+  font-size: 15rem;
+}
+
+.foodItem{
+   font-size: 1.3rem;
+   font-weight: 600;
+   color:black;
+}

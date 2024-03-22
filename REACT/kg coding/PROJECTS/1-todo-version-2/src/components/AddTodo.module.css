@@ -1,0 +1,18 @@
+input{
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+button{
+  height: 40px;
+  width: 80px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container{
+    margin: 20px;
+}
